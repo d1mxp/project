@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 export const DesktopMenu = () => {
   return (
     <nav>
-      <Link to="/BeansProject/beans">Beans</Link>
-      <Link to="/BeansProject/facts">Facts</Link>
-      <Link to="/BeansProject/recipes">Recipes</Link>
-      <Link to="/BeansProject/combinations">Combinations</Link>
-      <Link to="/BeansProject/history">History</Link>
+      <Link to="/project/beans">Beans</Link>
+      <Link to="/project/facts">Facts</Link>
+      <Link to="/project/recipes">Recipes</Link>
+      <Link to="/project/combinations">Combinations</Link>
+      <Link to="/project/history">History</Link>
     </nav>
   );
 };
